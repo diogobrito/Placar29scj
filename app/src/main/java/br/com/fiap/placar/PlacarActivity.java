@@ -33,8 +33,8 @@ public class PlacarActivity extends AppCompatActivity {
             golCasa = savedInstanceState.getInt("GOLCASA");
             golVisitante = savedInstanceState.getInt("GOLVISITANTE");
         }
-            tvPlacarCasa.setText(String.valueOf(savedInstanceState.getInt("GOLCASA")));
-            tvPlacarVisitante.setText(String.valueOf(savedInstanceState.getInt("GOLVISITANTE")));
+            tvPlacarCasa.setText(String.valueOf(golCasa));
+            tvPlacarVisitante.setText(String.valueOf(golVisitante));
     }
 
     public void golCasa(View v) {

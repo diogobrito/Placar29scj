@@ -54,14 +54,12 @@
 
         <Button
             style="@style/elemento_placar_titulo"
-            tools:text="GOL"
             android:text="GOL"
             android:id="@+id/btGolCasa"
             android:onClick="golCasa" />
 
         <Button
             style="@style/elemento_placar_titulo"
-            tools:text="GOL"
             android:text="GOL"
             android:id="@+id/btGolVisitante"
             android:onClick="golVisitante" />
